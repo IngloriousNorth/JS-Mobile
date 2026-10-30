@@ -6,12 +6,12 @@ $(document).ready(function(){
 
 	$(window).resize(function(){
 		if($(window).width() > 1079)
-			$(".menu").hide();
+			$(".js_mobile_menu").hide();
 	})
 })
 
 //if using TEMPLAR-Router
 $(document).on("TEMPLAR", function(){
-	$(".menu").hide();//hides menu when <a> clicked and page routes
+	$(".js_mobile_menu").hide();//hides menu when <a> clicked and page routes
 })
 //this is a little trick i came up with because TEMPLAR broadcasts a "TEMPLAR" event after every route. SO if you want your mobile menu to hide on route, just listen for the "TEMPLAR" event and force hide it.
