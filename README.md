@@ -1,1 +1,1 @@
-Just a very basic Framework for a mobile web app.
+Just a very basic Framework for a jQuery mobile web app.
