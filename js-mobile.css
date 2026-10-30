@@ -18,6 +18,10 @@ header{
 	#js-mobile-menu{
 		display:block;
 		font-size:32px;
+		postion:fixed;
+		z-index:9999;
+		left:3px;
+		top:2px;
 	}
 
 	.js-mobile-menu{
