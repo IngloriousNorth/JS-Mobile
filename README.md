@@ -1,1 +1,1 @@
-Just a very basic skeleton of a mobile web app.
+Just a very basic Framework for a mobile web app.
