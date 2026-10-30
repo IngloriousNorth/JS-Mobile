@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	$("#menu").click(function(e){
+	$("#js_mobile_menu").click(function(e){
 		e.preventDefault();
-		$(".menu").slideToggle();
+		$(".js_mobile_menu").slideToggle();
 	})
 
 	$(window).resize(function(){
