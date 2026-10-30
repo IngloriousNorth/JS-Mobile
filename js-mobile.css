@@ -11,6 +11,10 @@ header{
 		display:none;
 	}
 
+	body{
+		max-width:320px;
+	}
+
 	#menu{
 		display:block;
 	}
