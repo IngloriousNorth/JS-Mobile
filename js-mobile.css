@@ -2,7 +2,7 @@ header{
 	display:block; /* header optional on desktop */
 }
 
-#menu, .menu{
+#js-mobile-menu, .js-mobile-menu{
 	display:none;
 }
 
@@ -15,16 +15,16 @@ header{
 		max-width:320px;
 	}
 
-	#menu{
+	#js-mobile-menu{
 		display:block;
 		font-size:32px;
 	}
 
-	.menu{
+	.js-mobile-menu{
 		display:none;
 	}
 
-	.menu{
+	.js-mobile-menu{
 		width:100%;
 		height:100%;
 	}
